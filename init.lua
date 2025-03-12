@@ -3,6 +3,9 @@
 --  created from kickstart.nvim
 --]]
 
+local system_node_path = '/home/nicholas/.local/opt/node-v22.14.0/lib/node_modules'
+vim.g.node_host_provider = system_node_path
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
